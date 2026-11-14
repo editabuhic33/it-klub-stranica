@@ -43,3 +43,12 @@ form .btn{margin-top:1rem;align-self:flex-start}
 #status{color:var(--accent);font-weight:600}
 
 .site-footer{text-align:center;padding:2rem;color:var(--muted);border-top:1px solid var(--line)}
+
+@media (max-width:760px){
+  .nav-toggle{display:block}
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--line)}
+  .nav.open{display:flex}
+  .nav a{padding:.9rem 1.5rem}
+  .hero{grid-template-columns:1fr;padding:2.5rem 1.5rem}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
