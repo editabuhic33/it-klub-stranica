@@ -53,6 +53,26 @@ e08b6a4 Uredio README</pre>
         <article class="project"><h3>Portfolio učenika</h3><p>Lične stranice članova kluba.</p><span class="tag">HTML + CSS</span></article>
       </div>
     </section>
+
+    <section id="prijava" class="section narrow">
+      <h2>Prijavi se</h2>
+      <form id="form" novalidate>
+        <label for="ime">Ime i prezime</label>
+        <input id="ime" name="ime" type="text" autocomplete="name">
+        <small class="err" id="err-ime"></small>
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+        <small class="err" id="err-email"></small>
+
+        <label for="poruka">Zašto želiš u klub?</label>
+        <textarea id="poruka" name="poruka" rows="4"></textarea>
+        <small class="err" id="err-poruka"></small>
+
+        <button class="btn" type="submit">Pošalji prijavu</button>
+        <p id="status" role="status"></p>
+      </form>
+    </section>
   </main>
 
   <footer class="site-footer">© 2026 Školski IT klub</footer>
