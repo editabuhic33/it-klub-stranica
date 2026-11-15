@@ -18,4 +18,4 @@ Preuzmi repozitorij i otvori `index.html` u pregledniku.
 
 ## Autori
 - Edita Buhić (branch `feature/edita-buhic`)
-- Una Bašić (branch `feature/una-bašić`)
+- Una Bašić-tehnički problemi pa smo radili sa jednim branchom
